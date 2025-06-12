@@ -1,0 +1,10 @@
+PHP Compatibility
+This kit is compatible from PHP 5.3 to PHP 7.3
+
+Prerequisite
+OpenSSL
+
+We recommend you to use most recent version of OpenSSL.
+Miniumum OpenSSL version required:
+PHP 5.X - Open SSL 0.9.8
+PHP 7.X - Open SSL 1.0.1
