@@ -1,0 +1,156 @@
+
+
+@page {
+    margin: 15px 20px 5px 20px
+}
+
+hr {
+    border-color: #000;
+    border-width: 1px;
+}
+
+.Center{
+   page-break-after: always;
+   font-size: 9px;
+}
+p{
+    margin:0px
+}
+/* table tr:last-child {
+    height: auto;
+} */
+
+h3 {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.d-flex {
+    display: flex
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.border span {
+    font-weight: 700;
+}
+
+.border table td {
+    text-align: left;
+    /* vertical-align: top; */
+}
+
+.border-table {
+    border: 1px solid #000;
+}
+
+.border-table table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 98%;
+}
+
+.border-table tr td:last-child{
+    border-right: none;
+}
+.border-table td:first-child(){
+    border-left: none;
+}
+.border-table td,
+th {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-right: none;
+    border-left:none;
+    border-top: 1px solid #000;
+    text-align: left;
+    padding: 2px 4px;
+}
+
+.invoice2 table {
+    -fs-table-paginate: paginate;
+    -fs-page-sequence: auto;
+    page-break-after:auto;
+}
+.invoice table,
+.invoice2 table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 98%;
+}
+
+.invoice2 td,
+th {
+    border: 1px solid #000;
+    text-align: left;
+    padding: 3px 4px;
+    /* vertical-align: top; */
+}
+
+
+
+.invoice td,
+th {
+    border: 1px solid #000;
+    text-align: left;
+    padding: 3px 4px;
+    /* vertical-align: top; */
+}
+
+p {
+    margin-top: 7px;
+    line-height: 15px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.invoice th,
+.invoice2 th {
+    font-weight: 700;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+.bb{
+    border-bottom:none;
+}
+.br{
+    border-right:none;
+}
+.text-left {
+    text-align: left;
+}
+.bold{
+    font-weight: 500;
+}
+.invoice2 table tr {}
+
+.invoice2 table tr {
+    height: 15px;
+}
+
+.invoice2 tbody tr:last-child td {
+    border-bottom:none
+}
+.invoice2 tbody tr:last-child {
+/* vertical-align: top; */
+    height: auto;
+    background: #ccc;
+}
+
+.invoice table tr {}
